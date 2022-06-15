@@ -49,7 +49,7 @@ const Footer =()=>{
 
               </p>
               <p>
-                  <a href='tel:0784875125'>0784792020</a>
+                  <a href='tel:0784792020'>0784792020</a>
                   </p>
                 <p>
                   <a href='email:uwasey7@gmail.com'>uwasey7@gmail.com</a>
