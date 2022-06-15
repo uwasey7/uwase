@@ -1,4 +1,9 @@
 import React from 'react';
+import Nav from "../component/navbar";
+import Footer from '../component/footer';
+
+
+
 
 
 import gorilla from "../assets/image/Gorilla.jpg";
@@ -10,7 +15,7 @@ import 'antd/dist/antd.css';
 import { Carousel } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
-import HomeLayout from '../component/HomeLayout';
+// import HomeLayout from '../component/HomeLayout';
 
 
 
@@ -28,6 +33,8 @@ const onSearch = (value) => console.log(value);
 
 const Home = () => {
     return (
+        <>
+        
     
         <div className='home-container'>
           
@@ -52,12 +59,13 @@ const Home = () => {
 
 </div>
 
-         {/* <h3 className='topTour'>Top Tour</h3>   
-         <hr className='align'></hr>    */}
+          <h3 className='topTour'>Top Tour</h3>   
+         <hr className='align'></hr>   
             </div>
             
         </div>
-        
+       
+        </>
     )
 };
 export default Home;

@@ -17,7 +17,7 @@ const Nav=()=>{
                         Home
                         </a></li>
                         
-                    <li><a href='aboutus' className='nav-link'style={{color:"white"}}>
+                    <li><a href='about' className='nav-link'style={{color:"white"}}>
                         About-us
                         </a></li>
                         
@@ -43,6 +43,10 @@ const Nav=()=>{
 
 
 
+    );
+    
+
+    };
 
 
 
@@ -50,6 +54,12 @@ const Nav=()=>{
 
 
 
-    )
-}
+
+
+
+
+
+
+
+
 export default Nav;
