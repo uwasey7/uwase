@@ -28,7 +28,7 @@ const Footer =()=>{
                   </div>
                   <p className='copyright'>
                       {" "}
-                      copyright &copy;{year} by Djanati Uwase,
+                      copyright &copy;{year} by Yvonne Uwase,
                       <span>Inc.All rights reserved</span>
 
 
@@ -49,7 +49,7 @@ const Footer =()=>{
 
               </p>
               <p>
-                  <a href='tel:0784875125'>0784875125</a>
+                  <a href='tel:0784875125'>0784792020</a>
                   </p>
                 <p>
                   <a href='email:uwasey7@gmail.com'>uwasey7@gmail.com</a>
