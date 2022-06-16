@@ -25,11 +25,11 @@ const Nav=()=>{
                         
                    
                         
-                    <li><a href='/contact' className='nav-link link-green' style={{color:"white"}}>
+                    <li><a href='Contact' className='nav-link link-green' style={{color:"white"}}>
                         Contact Us
                         </a></li>
                         
-                    <li><a href='/tours' className='nav-link btn-link'style={{color:"white"}}>
+                    <li><a href='/Tour' className='nav-link btn-link'style={{color:"white"}}>
                         Tour
                         </a></li>
                 </ul>

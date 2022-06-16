@@ -1,6 +1,6 @@
 import React from 'react';
-import 'antd/dist/antd.css';
-import './index.css';
+
+import 'antd/dist/antd.css'
 import {
   AutoComplete,
   Button,
@@ -80,7 +80,7 @@ const tailFormItemLayout = {
   },
 };
 
-const App = () => {
+const ContactUs = () => {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
@@ -94,8 +94,8 @@ const App = () => {
           width: 70,
         }}
       >
-        <Option value="86">+86</Option>
-        <Option value="87">+87</Option>
+        <Option value="250">+250</Option>
+        <Option value="33">+33</Option>
       </Select>
     </Form.Item>
   );
@@ -107,7 +107,7 @@ const App = () => {
         }}
       >
         <Option value="USD">$</Option>
-        <Option value="CNY">¥</Option>
+        <Option value="RWF">¥</Option>
       </Select>
     </Form.Item>
   );
@@ -132,8 +132,8 @@ const App = () => {
       name="register"
       onFinish={onFinish}
       initialValues={{
-        residence: ['zhejiang', 'hangzhou', 'xihu'],
-        prefix: '86',
+        residence: ['Rwanda', 'kigali', 'xihu'],
+        prefix: '+250',
       }}
       scrollToFirstError
     >
@@ -234,7 +234,7 @@ const App = () => {
         <Input
           addonBefore={prefixSelector}
           style={{
-            width: '100%',
+            width: '50%',
           }}
         />
       </Form.Item>
@@ -252,7 +252,7 @@ const App = () => {
         <InputNumber
           addonAfter={suffixSelector}
           style={{
-            width: '100%',
+            width: '70%',
           }}
         />
       </Form.Item>
@@ -348,4 +348,5 @@ const App = () => {
   );
 };
 
-export default App;
+
+export default ContactUs;
