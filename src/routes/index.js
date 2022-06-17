@@ -13,7 +13,9 @@ import AllTour from "../views/Dashboard/AllTour"
 import App from '../views/Dashboard/AllTour';
 import createTour from "../views/Dashboard/createTour"
 
+import gallery from '../component/gallery';
 import Form from '../views/Dashboard/createTour';
+// import gallery from "../component/gallery";
 
 
 const Index=()=>{
@@ -32,6 +34,7 @@ const Index=()=>{
       <Route exact path='/about' element= {<AboutUs/>}></Route>
      <Route  path='/Tour' element= {<Tour/>}></Route>   
     <Route  path='/Contact' element= {<ContactUs/>}></Route> 
+    <Route  path='/gallery' element= {<gallery/>}></Route> 
     
 </Routes>
 <DashboardLayout>

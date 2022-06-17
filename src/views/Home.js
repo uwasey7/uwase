@@ -5,7 +5,6 @@ import Footer from '../component/footer';
 
 
 
-
 import gorilla from "../assets/image/Gorilla.jpg";
 import Kivu from "../assets/image/kivu.png";
 import mount from "../assets/image/ok.jpg";
